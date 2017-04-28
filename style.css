@@ -1,0 +1,275 @@
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.header {
+  background-image: url("assets/pics/moba.jpg");
+  property:initial;
+  height: auto;
+  background-position: center center;
+  color:white;
+  margin:0;
+  padding: 3%;
+
+  /*float:right;*/
+  text-align:center;
+}
+p{margin:0;font-size:1.2em;text-align:center;}
+h1{font-size:5em;margin:1%;}
+h4{font-size:1.5em;padding-top:1%;margin:1%;}
+h3{font-size:2em;margin:1%;}
+h6{font-size:1.2em;font-weight:bold;margin:0px;padding-left:8%;padding-top:8%;padding-right:8%;}
+h5{font-size:1.2em;font-weight: bold;margin:0px;padding-left:8%;padding-right:8%;}
+.discription{font-size:1.2em;margin:0; text-align:left;padding-left:8%;padding-right:8%;}
+.italicword{font-size:1.2em;font-style:italic;font-weight:lighter;margin:0;text-align:left;padding-left:8%;padding-right:8%;}
+.brief {
+  background-image: url("assets/pics/background.jpg");
+   property:initial;
+  height: auto;
+  background-position: center center;
+  color:white;
+  margin-top: 0;
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:5%;
+  padding-top:5%;
+
+  text-align:center;
+}
+
+
+.brief,.more{margin:0;font-size:2em;text-align:left;}
+.more{font-weight:bold;}
+/*.more{margin:0;font-size:2em;text-align:left;}*/
+.woman, .dog, .egg,.charlie{
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    color:white;
+
+    /*float: left;*/
+}
+
+.woman{float:left;}
+
+.egg{order:1}
+.charlie{order:2; float:right;}
+.bottom{width:100%}
+/*.egg{
+  justify-content:center;
+  width: 50%;*/
+  /*float: left;*/
+  /*order:2;
+}
+.charlie{
+  justify-content:center;
+  width: 50%;
+  order:1;
+}*/
+.womanpic{
+  width: 100%;
+  margin: 0px;
+}
+
+.womantext{
+  width: 100%;
+  margin: 0px;
+  background-color:#F4A814;
+
+
+  text-align: left;
+  font-size:1.1em;
+}
+
+.dogpic{
+  width: 100%;
+  margin: 0px;
+
+}
+
+.dogtext{
+  width: 100%;
+  margin: 0px;
+  background-color:#79ABBD;
+  text-align: left;
+  font-size:1.1em;
+
+}
+.eggpic{
+  width: 100%;
+  margin: 0px;
+  order: 2;
+}
+
+.eggtext{
+  width: 100%;
+  margin: 0px;
+  background-color:#79ABBD;
+  order: 1;
+  text-align: left;
+  font-size:1.1em;
+}
+
+.charliepic{
+  width: 100%;
+  margin: 0px;
+  order: 2;
+}
+
+.charlietext{
+  width: 100%;
+  margin: 0px;
+  background-color:#F4A814;
+  order: 1;
+  text-align: left;
+  font-size:1.2em;
+}
+
+.clear{
+  clear: both;
+}
+
+.more {
+  background-image: url("assets/pics/MOBAfacade3.jpg");
+   property:initial;
+  height: auto;
+  background-position: center center;
+  color:#2b3b57;
+  margin-top: 0;
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:5%;
+  padding-top:5%;
+
+  text-align:center;
+}
+.footer {
+
+  height: 30%;
+  background-position: center center;
+  color:grey;
+  margin-top: 0;
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:5%;
+  padding-top:5%;
+  font-size:8px;
+  text-align:center;
+}
+@media screen and (min-width: 1600px){
+  p{margin:0;font-size:1.5em;text-align:center;}
+  h6{font-size:2em;font-weight:bold;margin:0px;padding-left:8%;padding-top:8%;padding-right:8%;}
+h5{font-size:2em;font-weight: bold;margin:0px;padding-left:8%;padding-right:8%;}
+.discription{font-size:1.8em;margin:0; text-align:left;padding-left:8%;padding-right:8%;}
+.italicword{font-size:1.8em;font-style:italic;font-weight:lighter;margin:0;text-align:left;padding-left:8%;padding-right:8%;}
+}
+}
+@media screen and (min-width: 1200px)and(max-width: 1620px)  {
+  p{margin:0;font-size:1.2em;text-align:center;}
+  h6{font-size:1.5em;font-weight:bold;margin:0px;padding-left:8%;padding-top:8%;padding-right:8%;}
+h5{font-size:1.5em;font-weight: bold;margin:0px;padding-left:8%;padding-right:8%;}
+.discription{font-size:1.5em;margin:0; text-align:left;padding-left:8%;padding-right:8%;}
+.italicword{font-size:1.5em;font-style:italic;font-weight:lighter;margin:0;text-align:left;padding-left:8%;padding-right:8%;}
+}
+@media screen and (min-width: 660px) and (max-width: 970px) {
+  h6{font-size:0.8em;font-weight:bold;margin:0px;padding-left:5%;padding-top:5%;padding-right:5%;}
+  h5{font-size:0.8em;font-weight: bold;margin:0px;padding-left:5%;padding-right:5%;}
+  .discription{font-size:0.8em;margin:0; text-align:left;padding-left:5%;padding-right:5%;}
+  .italicword{font-size:0.8em;font-style:italic;font-weight:lighter;margin:0;text-align:left;padding-left:5%;padding-right:5%;}
+}
+@media screen and (min-width: 300px) and (max-width: 660px) {
+  /*.bottom{
+    width:100%;
+    /*display: -webkit-flex; /* Safari */
+    /*-webkit-align-items: flex-start; /* Safari 7.0+ */*/*/
+    /*display: flex;
+    align-items: flex-start;
+}*/
+
+h1,h4,h3{margin:0;}
+h1{font-size:3em;}
+h4{font-size:1em;padding-top:1.5%;}
+h3{font-size:1.5em;}
+  p{margin:0;font-size:0.8em;}
+  .woman{
+      width: 100%;
+      order: 1;
+  }
+  .dog{
+      width:100%;
+      order: 2;
+  }
+  .egg{
+      width:100%;
+      /*order: 4;*/
+      /*-webkit-align-self: flex-end; /* Safari 7.0+ */
+      /*align-self: flex-end;*/
+  }
+  .charlie{
+      width:100%;
+      /*order: 3;*/
+      /*-webkit-align-self: flex-start; /* Safari 7.0+ */
+      /*align-self: flex-start;*/
+  }
+
+  .womanpic{
+    width: 50%;
+    margin: 0px;
+    order:1;
+  }
+
+  .womantext{
+    width: 50%;
+    margin: 0px;
+    order:2;
+    background-color:#F4A814;
+    padding-left:3%;
+    padding-top:3%;
+    text-align: left;
+  }
+
+  .dogpic{
+    width: 50%;
+    margin: 0px;
+    order:4;
+  }
+
+  .dogtext{
+    width: 50%;
+    margin: 0px;
+    order:3;
+    background-color:#79ABBD;
+  }
+
+  .eggpic{
+    width: 50%;
+    margin: 0px;
+    /*order:3;*/
+  }
+
+  .eggtext{
+    width: 50%;
+    margin: 0px;
+    /*order:4;*/
+    background-color:#79ABBD;
+  }
+
+  .charliepic{
+    width: 50%;
+    margin: 0px;
+    order:1;
+  }
+
+  .charlietext{
+    width: 50%;
+    margin: 0px;
+    order:2;
+    background-color:#F4A814;
+}
+h6{font-size:0.8em;font-weight:bold;margin:0px;padding-left:5%;padding-top:8%;padding-right:5%;}
+h5{font-size:1em;font-weight: bold;margin:0px;padding-left:5%;padding-right:5%;}
+  .discription{font-size:0.8em;margin:0; text-align:left;padding-left:5%;padding-right:5%;}
+  .italicword{font-size:0.8em;font-style:italic;font-weight:lighter;margin:0;text-align:left;padding-left:5%;padding-right:5%;}
+}
